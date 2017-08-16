@@ -27,7 +27,14 @@ p {
   position: absolute;
 }
 
-.wmLogo:before {
+.imgLogo{
+  display: flex;
+    margin-top: -15em;
+    position: fixed;
+    margin-left: 51em;
+}
+
+.by:before {
   content: "By Wilmer Moina";
   position: fixed;
   bottom: 1vh;
@@ -36,11 +43,4 @@ p {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-}
-
-.imgLogo{
-  display: flex;
-    margin-top: -15em;
-    position: fixed;
-    margin-left: 50em;
 }
