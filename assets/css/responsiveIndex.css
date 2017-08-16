@@ -41,7 +41,6 @@
 }
 
 @media screen and (max-width: 1366px) {
-
   body {
     height: 96vh;
   }
@@ -131,7 +130,12 @@
   }
   .imgLogo {
     width: 5em;
+    display: flex;
+    margin-top: -15em;
+    position: fixed;
+    margin-left: 20em;
   }
+  
   p {
     font-size: 1em;
     margin-left: calc(35vw - 6em);

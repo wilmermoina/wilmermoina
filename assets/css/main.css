@@ -39,4 +39,8 @@ p {
 }
 
 .imgLogo{
+  display: flex;
+    margin-top: -15em;
+    position: fixed;
+    margin-left: 50em;
 }
